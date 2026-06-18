@@ -11,7 +11,7 @@ class AppConstants {
       'SCE Certified Civil Engineer with 5+ years of experience in structural design, site supervision, and technical office engineering.';
 
   static String get devImagePath =>
-      _info['image'] ?? 'assets/images/eslam_image.jpg';
+      _info['image'] ?? 'assets/image/profile/Eslam_Ahmed.jpg';
   static String get devCvPath =>
       _info['cv'] ??
       'assets/pdf/cv.pdf';
