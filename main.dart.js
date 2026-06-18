@@ -40093,7 +40093,7 @@ q.toString
 q=J.fH(q,l)
 q.toString
 r.push(new A.th(B.Dj,q,p))}r=A.k1(A.cF(A.cM(A.j2(B.be,r,16,16),p,p),A.aA(k,0),A.aA(k,0)),0.2,0)
-return A.b4(p,A.cr(A.c([B.Lt,B.ei,g,B.eh,r,A.e4(p,j?32:60,p),A.wH(new A.U4(j))],s),B.u,B.v,B.E),B.k,p,p,p,p,p,p,new A.a7(i,h,i,h),p,p,p)}}
+return A.b4(p,A.cr(A.c([B.Lu,B.ei,g,B.eh,r,A.e4(p,j?32:60,p),A.wH(new A.U4(j))],s),B.u,B.v,B.E),B.k,p,p,p,p,p,p,new A.a7(i,h,i,h),p,p,p)}}
 A.U4.prototype={
 $2(a,b){var s,r=null,q=this.a,p=q?(b.b-24)/2:260,o=$.dx.i(0,"stats")
 if(o==null)o=[]
@@ -40156,7 +40156,7 @@ r=n?40:80
 q=A.e4(o,n?32:60,o)
 p=A.W(s).h("a_<1,kL>")
 p=A.X(new A.a_(s,new A.Vx(n),p),p.h("al.E"))
-return A.b4(o,A.cr(A.c([B.Ly,q,A.ip(A.j2(B.be,A.k1(A.cF(A.Ul(p,A.aA(2e5,0)),o,A.aA(6e5,0)),0.2,0),24,24),o,o)],t.p),B.u,B.v,B.E),B.k,o,o,o,o,o,o,new A.a7(m,r,m,r),o,o,o)}}
+return A.b4(o,A.cr(A.c([B.Lx,q,A.ip(A.j2(B.be,A.k1(A.cF(A.Ul(p,A.aA(2e5,0)),o,A.aA(6e5,0)),0.2,0),24,24),o,o)],t.p),B.u,B.v,B.E),B.k,o,o,o,o,o,o,new A.a7(m,r,m,r),o,o,o)}}
 A.Vx.prototype={
 $1(a){var s,r,q,p=a.i(0,"title")
 if(p==null)p=""
@@ -40189,7 +40189,7 @@ n=B.n.ag(0.1)
 m=B.n.ag(0.08)
 l=A.bs(20)
 k=t.p
-return A.b4(j,A.cr(A.c([B.Lw,B.ei,f,s,r,q,p,B.Nc,A.cr(A.c([B.RD,B.d6,A.a_h(!1,o,!0,A.b4(j,B.Lf,B.k,j,j,new A.aX(m,j,A.cv(B.n.ag(0.3),1),l,j,j,B.w),j,j,j,B.f9,j,j,j),j,!0,j,j,j,n,j,j,j,j,new A.Wa(this),j,j,j,j)],k),B.u,B.v,B.ay),B.eh],k),B.u,B.v,B.E),B.k,j,j,j,j,j,j,new A.a7(h,g,h,g),j,j,j)}}
+return A.b4(j,A.cr(A.c([B.Ly,B.ei,f,s,r,q,p,B.Nc,A.cr(A.c([B.RD,B.d6,A.a_h(!1,o,!0,A.b4(j,B.Lf,B.k,j,j,new A.aX(m,j,A.cv(B.n.ag(0.3),1),l,j,j,B.w),j,j,j,B.f9,j,j,j),j,!0,j,j,j,n,j,j,j,j,new A.Wa(this),j,j,j,j)],k),B.u,B.v,B.ay),B.eh],k),B.u,B.v,B.E),B.k,j,j,j,j,j,j,new A.a7(h,g,h,g),j,j,j)}}
 A.W8.prototype={
 $2(a,b){var s,r,q,p=null,o=this.b?(b.b-24)/2:240,n=$.dx.i(0,"socialLinks")
 if(n==null)n=[]
@@ -40263,7 +40263,7 @@ if(this.gvA().length===0)return B.cw
 s=A.co(a).e
 r=s?24:80
 q=s?40:80
-return A.b4(p,A.cr(A.c([B.Lr,A.e4(p,s?32:60,p),A.b4(p,A.alM(p,new A.Xm(this),this.gvA().length,B.jn,B.aF,!0),B.k,p,B.kC,p,p,p,p,p,p,p,p)],t.p),B.u,B.v,B.E),B.k,p,p,p,p,p,p,new A.a7(r,q,r,q),p,p,p)}}
+return A.b4(p,A.cr(A.c([B.Ls,A.e4(p,s?32:60,p),A.b4(p,A.alM(p,new A.Xm(this),this.gvA().length,B.jn,B.aF,!0),B.k,p,B.kC,p,p,p,p,p,p,p,p)],t.p),B.u,B.v,B.E),B.k,p,p,p,p,p,p,new A.a7(r,q,r,q),p,p,p)}}
 A.Xm.prototype={
 $2(a,b){var s=this.a
 return new A.t8(s.gvA()[b],b===s.gvA().length-1,b,null)},
@@ -40299,7 +40299,7 @@ gCE(){var s=$.dx.i(0,"experience")
 if(s==null)s=[]
 return A.cH(s,!0,t.a)},
 H(a){var s=null,r=A.co(a).e,q=r?24:80,p=r?40:80
-return A.b4(s,A.cr(A.c([B.Ls,A.e4(s,r?32:60,s),A.b4(s,A.alM(s,new A.Y2(this),this.gCE().length,B.jn,B.aF,!0),B.k,s,B.kC,s,s,s,s,s,s,s,s)],t.p),B.u,B.v,B.E),B.k,s,s,s,s,s,s,new A.a7(q,p,q,p),s,s,s)}}
+return A.b4(s,A.cr(A.c([B.Lt,A.e4(s,r?32:60,s),A.b4(s,A.alM(s,new A.Y2(this),this.gCE().length,B.jn,B.aF,!0),B.k,s,B.kC,s,s,s,s,s,s,s,s)],t.p),B.u,B.v,B.E),B.k,s,s,s,s,s,s,new A.a7(q,p,q,p),s,s,s)}}
 A.Y2.prototype={
 $2(a,b){var s=this.a
 return new A.tQ(s.gCE()[b],b===s.gCE().length-1,b,null)},
@@ -40353,7 +40353,7 @@ p=this.d
 p===$&&A.a()
 p=A.e4(A.alM(p,new A.acQ(r,m),1e4,B.jn,B.aq,!1),100,n)
 o=m?24:80
-return A.b4(n,A.cr(A.c([B.Lx,s,p,B.ei,new A.bF(new A.a7(o,0,o,0),A.wH(new A.acR(m,q)),n)],t.p),B.u,B.v,B.E),B.k,n,n,n,n,n,n,new A.a7(0,l,0,l),n,n,1/0)}}
+return A.b4(n,A.cr(A.c([B.Lv,s,p,B.ei,new A.bF(new A.a7(o,0,o,0),A.wH(new A.acR(m,q)),n)],t.p),B.u,B.v,B.E),B.k,n,n,n,n,n,n,new A.a7(0,l,0,l),n,n,1/0)}}
 A.acO.prototype={
 $1(a){var s=this.a.d
 s===$&&A.a()
@@ -40463,7 +40463,7 @@ return A.b4(q,new A.Ec(1,A.b4(q,new A.EK(new A.pA(r==null?"assets/image/profile/
 $S:346}
 A.Iw.prototype={
 H(a){var s=null,r=A.co(a).e,q=r?24:80,p=r?40:80
-return A.b4(s,A.cr(A.c([B.Lu,A.e4(s,r?40:60,s),A.wH(new A.a4D())],t.p),B.u,B.v,B.E),B.k,s,s,s,s,s,s,new A.a7(q,p,q,p),s,s,s)}}
+return A.b4(s,A.cr(A.c([B.Lq,A.e4(s,r?40:60,s),A.wH(new A.a4D())],t.p),B.u,B.v,B.E),B.k,s,s,s,s,s,s,new A.a7(q,p,q,p),s,s,s)}}
 A.a4D.prototype={
 $2(a,b){var s,r,q={},p=A.co(a),o=A.co(a)
 q.a=null
@@ -40509,7 +40509,7 @@ gFK(){var s=$.dx.i(0,"services")
 if(s==null)s=[]
 return A.cH(s,!0,t.a)},
 H(a){var s,r=this,q=null,p=A.co(a).e,o=p?0:80,n=p?40:80,m=p?24:0,l=t.p
-m=A.c([new A.bF(new A.a7(m,0,m,0),B.Lv,q),A.e4(q,p?40:60,q)],l)
+m=A.c([new A.bF(new A.a7(m,0,m,0),B.Lw,q),A.e4(q,p?40:60,q)],l)
 if(p){s=r.gFK()
 l=A.c([A.ars(A.dz(new A.eB(s,A.W(s).h("eB<1>")).ge4().ds(0,new A.ahq(!0),t.iF).cO(0),B.u,B.v,B.E),r.d,B.Cr,q,B.aq)],l)
 if(r.e)l.push(A.cF(A.cM(new A.bF(B.lN,A.a2V(A.arM(A.a2V(A.arr(A.cM(A.b4(q,B.mp,B.k,q,q,new A.aX(B.n.ag(0.1),q,A.cv(B.n.ag(0.2),1),q,q,q,B.b2),q,q,q,B.fa,q,q,q),q,new A.ahr()),B.K,A.aA(12e5,0)),-5,B.f2,A.aA(6e5,0),5)),5,B.f2,A.aA(6e5,0),-5),q),q,q),q,q))
@@ -40585,7 +40585,7 @@ if(p){s=r.gBD()
 s=A.c([A.ars(A.dz(new A.eB(s,A.W(s).h("eB<1>")).ge4().ds(0,new A.ai4(r),t.iF).cO(0),B.u,B.v,B.E),r.d,B.Ct,B.yV,B.aq)],t.p)
 if(r.e)s.push(A.cF(A.cM(new A.bF(B.lN,A.a2V(A.arM(A.a2V(A.arr(A.cM(A.b4(q,B.mp,B.k,q,q,new A.aX(B.n.ag(0.1),q,A.cv(B.n.ag(0.2),1),q,q,q,B.b2),q,q,q,B.fa,q,q,q),q,new A.ai5()),B.K,A.aA(12e5,0)),-5,B.f2,A.aA(6e5,0),5)),5,B.f2,A.aA(6e5,0),-5),q),q,q),q,q))
 s=A.ha(B.bu,s,B.bs)}else s=A.wH(new A.ai6(r))
-return A.b4(q,A.cr(A.c([new A.bF(new A.a7(m,0,m,0),B.Lq,q),l,s],t.p),B.u,B.v,B.E),B.k,q,q,q,q,q,q,new A.a7(o,n,o,n),q,q,q)}}
+return A.b4(q,A.cr(A.c([new A.bF(new A.a7(m,0,m,0),B.Lr,q),l,s],t.p),B.u,B.v,B.E),B.k,q,q,q,q,q,q,new A.a7(o,n,o,n),q,q,q)}}
 A.ai9.prototype={
 $0(){var s=this.a,r=s.d.f,q=B.b.gbC(r).at
 q.toString
@@ -80418,15 +80418,15 @@ B.wU=new A.rm(3,"bottom")
 B.Ln=new A.yD(null,null,null,null,null,null,null,null,null,null,null)
 B.Lo=new A.yE(null,null,null,null,null,null,null,null,null,null,null,null)
 B.Lp=new A.yF(null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.Lq=new A.h5("Technologies & Skills",80,2,null)
-B.Lr=new A.h5("Education",60,null,null)
-B.Ls=new A.h5("Experience",60,null,null)
-B.Lt=new A.h5("About Me",60,null,null)
-B.Lu=new A.h5("Actual Mobile Projects",80,null,null)
-B.Lv=new A.h5("What I Offer",60,null,null)
-B.Lw=new A.h5("Get In Touch",60,null,null)
-B.Lx=new A.h5("CORE EXPERTISE",80,4,null)
-B.Ly=new A.h5("Certifications & Trainings",60,null,null)
+B.Lq=new A.h5("Featured Projects",80,null,null)
+B.Lr=new A.h5("Technologies & Skills",80,2,null)
+B.Ls=new A.h5("Education",60,null,null)
+B.Lt=new A.h5("Experience",60,null,null)
+B.Lu=new A.h5("About Me",60,null,null)
+B.Lv=new A.h5("Skills",80,4,null)
+B.Lw=new A.h5("What I Offer",60,null,null)
+B.Lx=new A.h5("Training & Academic Experience",60,null,null)
+B.Ly=new A.h5("Get In Touch",60,null,null)
 B.Lz=new A.yG(null,null)
 B.LA=new A.op(0,"startEdgeUpdate")
 B.c2=new A.op(1,"endEdgeUpdate")
