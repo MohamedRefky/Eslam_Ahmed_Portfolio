@@ -39315,7 +39315,7 @@ o.xG()
 case 1:return A.M(q,r)}})
 return A.N($async$p_,r)},
 I(a){var s=null,r=A.dA(B.p,4),q=A.c([new A.bX(5,B.al,B.p.aK(0.5),B.j,30)],t.E)
-return A.ap0(B.As,A.pp(A.cH(A.c([A.cx(A.qQ(A.cE(A.bs(s,A.En(A.cq(75),A.anw("assets/images/my_image.jpg",B.ev)),B.m,s,s,new A.bp(s,s,r,s,q,s,B.be),s,150,s,s,s,s,150),s,s),s,B.zB,A.aB(6e5,0)),s,s),B.M3,A.jN(A.cx(A.cE(A.bu(A.Dy().toUpperCase(),s,s,B.Ow,s),A.aB(2e5,0),s),s,A.aB(6e5,0)),0.5,0),B.cZ,A.ap2(A.cx(A.cE(A.dZ(A.En(A.cq(10),B.Ef),s,150),A.aB(4e5,0),s),s,s),0,s,s,1)],t.p),B.C,B.cH,B.K),s,s),s,s)}}
+return A.ap0(B.As,A.pp(A.cH(A.c([A.cx(A.qQ(A.cE(A.bs(s,A.En(A.cq(75),A.anw("assets/image/profile/Eslam_Ahmed.jpg",B.ev)),B.m,s,s,new A.bp(s,s,r,s,q,s,B.be),s,150,s,s,s,s,150),s,s),s,B.zB,A.aB(6e5,0)),s,s),B.M3,A.jN(A.cx(A.cE(A.bu(A.Dy().toUpperCase(),s,s,B.Ow,s),A.aB(2e5,0),s),s,A.aB(6e5,0)),0.5,0),B.cZ,A.ap2(A.cx(A.cE(A.dZ(A.En(A.cq(10),B.Ef),s,150),A.aB(4e5,0),s),s,s),0,s,s,1)],t.p),B.C,B.cH,B.K),s,s),s,s)}}
 A.afF.prototype={
 $3(a,b,c){return B.CK},
 $S:313}
@@ -39700,7 +39700,7 @@ $2(a,b){var s,r,q=null,p=b.b
 if(p>400)p=400
 s=A.c([new A.bX(10,B.al,B.p.aK(0.5),B.j,30)],t.E)
 r=A.pc().i(0,"image")
-return A.bs(q,new A.DA(1,A.bs(q,new A.E5(new A.pd(r==null?"assets/images/eslam_image.jpg":r,q,q),q),B.m,q,q,new A.bp(q,q,q,q,s,B.mc,B.be),q,q,q,B.f1,q,q,q),q),B.m,q,new A.a8(0,p,0,1/0),q,q,q,q,q,q,q,q)},
+return A.bs(q,new A.DA(1,A.bs(q,new A.E5(new A.pd(r==null?"assets/image/profile/Eslam_Ahmed.jpg":r,q,q),q),B.m,q,q,new A.bp(q,q,q,q,s,B.mc,B.be),q,q,q,B.f1,q,q,q),q),B.m,q,new A.a8(0,p,0,1/0),q,q,q,q,q,q,q,q)},
 $S:284}
 A.HI.prototype={
 I(a){var s=null,r=A.cd(a).e,q=r?24:80,p=r?40:80
