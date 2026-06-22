@@ -6,7 +6,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../core/constants/app_constants.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/data/portfolio_data.dart';
-import '../../core/utils/icon_helper.dart';
+import '../../core/constants/app_icons.dart';
 import '../widgets/buttons/primary_button.dart';
 import '../../core/widgets/section_title.dart';
 
@@ -79,8 +79,8 @@ class ContactSection extends StatelessWidget {
 
                 return _ContactCard(
                   width: cardWidth,
-                  icon: FaIcon(
-                    IconHelper.getIcon(link['icon'] ?? ''),
+                  icon: Icon(
+                    AppIcons.getIcon(link['icon'] ?? ''),
                     size: 28,
                     color: AppColors.secondary,
                   ),

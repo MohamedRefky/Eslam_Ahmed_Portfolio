@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/data/portfolio_data.dart';
-import '../../core/utils/icon_helper.dart';
+import '../../core/constants/app_icons.dart';
 import '../../core/widgets/section_title.dart';
 
 class ServicesSection extends StatefulWidget {
@@ -74,8 +73,8 @@ class _ServicesSectionState extends State<ServicesSection> {
                           width: 300,
                           title: service['title'],
                           description: service['description'],
-                          icon: FaIcon(
-                            IconHelper.getIcon(service['icon'] ?? ''),
+                          icon: Icon(
+                            AppIcons.getIcon(service['icon'] ?? ''),
                             color: AppColors.secondary,
                             size: isMobile ? 24 : 30,
                           ),
@@ -125,8 +124,8 @@ class _ServicesSectionState extends State<ServicesSection> {
                   width: 280,
                   title: service['title'],
                   description: service['description'],
-                  icon: FaIcon(
-                    IconHelper.getIcon(service['icon'] ?? ''),
+                  icon: Icon(
+                    AppIcons.getIcon(service['icon'] ?? ''),
                     color: AppColors.secondary,
                     size: isMobile ? 24 : 30,
                   ),

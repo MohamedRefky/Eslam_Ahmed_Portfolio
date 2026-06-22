@@ -4,7 +4,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/data/portfolio_data.dart';
-import '../../core/utils/icon_helper.dart';
+import '../../core/constants/app_icons.dart';
 import '../../core/widgets/section_title.dart';
 
 class AboutSection extends StatelessWidget {
@@ -102,8 +102,8 @@ class AboutSection extends StatelessWidget {
                         width: cardWidth,
                         title: stat['title'] ?? '',
                         subtitle: stat['subtitle'] ?? '',
-                        icon: FaIcon(
-                          IconHelper.getIcon(stat['icon'] ?? ''),
+                        icon: Icon(
+                          AppIcons.getIcon(stat['icon'] ?? ''),
                           size: isMobile ? 32 : 40,
                           color: AppColors.secondary,
                         ),

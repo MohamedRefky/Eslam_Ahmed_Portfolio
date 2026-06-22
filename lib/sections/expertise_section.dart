@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import '../core/data/portfolio_data.dart';
 import '../core/theme/app_colors.dart';
-import '../core/utils/icon_helper.dart';
+import '../core/constants/app_icons.dart';
 import '../core/widgets/section_title.dart';
 
 class ExpertiseSection extends StatefulWidget {
@@ -75,8 +74,8 @@ class _ExpertiseSectionState extends State<ExpertiseSection> {
                   padding: const EdgeInsets.symmetric(horizontal: 40),
                   child: Row(
                     children: [
-                      FaIcon(
-                        IconHelper.getIcon(item['icon'] ?? ''),
+                      Icon(
+                        AppIcons.getIcon(item['icon'] ?? ''),
                         color: AppColors.primary,
                         size: isMobile ? 24 : 30,
                       ),
@@ -116,7 +115,7 @@ class _ExpertiseSectionState extends State<ExpertiseSection> {
                           width: cardWidth,
                           title: detail['title'] ?? '',
                           desc: detail['desc'] ?? '',
-                          icon: IconHelper.getIcon(detail['icon'] ?? ''),
+                          icon: AppIcons.getIcon(detail['icon'] ?? ''),
                         ),
                       )
                       .toList()
@@ -173,8 +172,8 @@ class _ExpertiseDetail extends StatelessWidget {
       ),
       child: Column(
         children: [
-          FaIcon(
-            icon as FaIconData?,
+          Icon(
+            icon as IconData?,
             color: AppColors.secondary,
             size: isMobile ? 28 : 40,
           ),

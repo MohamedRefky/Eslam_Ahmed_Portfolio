@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/data/portfolio_data.dart';
-import '../../core/utils/icon_helper.dart';
+import '../../core/constants/app_icons.dart';
 import '../../core/widgets/section_title.dart';
 
 class TechStackSection extends StatefulWidget {
@@ -80,7 +80,7 @@ class _TechStackSectionState extends State<TechStackSection> {
                           ),
                           child: _SkillCategoryCard(
                             title: category['title'],
-                            icon: IconHelper.getIcon(category['icon'] ?? ''),
+                            icon: AppIcons.getIcon(category['icon'] ?? ''),
                             skills: List<String>.from(category['skills'] ?? []),
                             index: index,
                             cardWidth: 300, // Fixed width for mobile scroll
@@ -139,7 +139,7 @@ class _TechStackSectionState extends State<TechStackSection> {
                       final category = entry.value;
                       return _SkillCategoryCard(
                         title: category['title'],
-                        icon: IconHelper.getIcon(category['icon'] ?? ''),
+                        icon: AppIcons.getIcon(category['icon'] ?? ''),
                         skills: List<String>.from(category['skills'] ?? []),
                         index: index,
                         cardWidth: cardWidth,
@@ -227,8 +227,8 @@ class _SkillCategoryCardState extends State<_SkillCategoryCard> {
                             color: AppColors.primary.withValues(alpha: 0.2),
                           ),
                         ),
-                        child: FaIcon(
-                          widget.icon as FaIconData?,
+                        child: Icon(
+                          widget.icon as IconData?,
                           color: AppColors.secondary,
                           size: 24,
                         ),

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 import '../../core/data/portfolio_data.dart';
 import '../../core/theme/app_colors.dart';
-import '../../core/utils/icon_helper.dart';
+import '../../core/constants/app_icons.dart';
 import '../../core/widgets/section_title.dart';
 import '../widgets/cards/certificate_card.dart';
 
@@ -40,8 +39,8 @@ class CertificatesSection extends StatelessWidget {
                       title: cert['title'] ?? '',
                       platform: cert['platform'] ?? '',
                       date: cert['date'] ?? '',
-                      icon: FaIcon(
-                        IconHelper.getIcon(cert['icon'] ?? ''),
+                      icon: Icon(
+                        AppIcons.getIcon(cert['icon'] ?? ''),
                         color: AppColors.primary,
                         size: isMobile ? 24 : 32,
                       ),
