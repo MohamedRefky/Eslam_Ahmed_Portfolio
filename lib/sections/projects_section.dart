@@ -21,7 +21,7 @@ class ProjectsSection extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const SectionTitle(title: 'Featured Projects', lineWidth: 80),
+          const SectionTitle(title: 'Selected Projects', lineWidth: 80),
           SizedBox(height: isMobile ? 40 : 60),
           LayoutBuilder(
             builder: (context, constraints) {
