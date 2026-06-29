@@ -439,7 +439,7 @@
       ]
     },
     {
-      "title": "Design & Drafting",
+      "title": "Engineering Skills",
       "icon": "drafting",
       "skills": [
         "AutoCAD (Structural)",
@@ -452,7 +452,8 @@
         "Seismic Load Analysis",
         "Wind Load Analysis",
         "BOQ Preparation",
-        "Tender Drawing"
+        "Tender Drawing",
+        "Site Supervision"
       ]
     },
     {
@@ -462,16 +463,6 @@
         "MS Excel",
         "MS PowerPoint",
         "MS Word"
-      ]
-    },
-    {
-      "title": "Field & Management",
-      "icon": "hardHat",
-      "skills": [
-        "Site Supervision",
-        "Quantity Take-Off",
-        "Technical Office Engineering",
-        "Construction Management"
       ]
     }
   ],
