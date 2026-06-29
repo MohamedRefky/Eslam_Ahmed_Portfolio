@@ -51,22 +51,38 @@
   "services": [
     {
       "title": "Structural Design",
-      "description": "Develop full structural design packages including calculations, modeling, and reinforcement detailing for concrete and steel systems Convert architectural layouts into efficient, code-compliant structural systems according to ECP and ACI Develop reinforcement details, bar bending schedules (BBS), and structural detailing for all concrete elements Delivered structural design and analysis for 50+ projects including residential, industrial, and infrastructure structures, ensuring full compliance with ECP and ACI standards Applied value engineering techniques that reduced structural material consumption while maintaining safety and code compliance",
+      "description": [
+        "Develop full structural design packages including calculations, modeling, and reinforcement detailing for concrete and steel systems",
+        "Convert architectural layouts into efficient, code-compliant structural systems according to ECP and ACI",
+        "Develop reinforcement details, bar bending schedules (BBS), and structural detailing for all concrete elements",
+        "Delivered structural design and analysis for 50+ projects including residential, industrial, and infrastructure structures, ensuring full compliance with ECP and ACI standards",
+        "Applied value engineering techniques that reduced structural material consumption while maintaining safety and code compliance"
+      ],
       "icon": "building"
     },
     {
       "title": "Site Supervision",
-      "description": "Supervised execution of critical infrastructure works including pipe racks, foundations, and heavy steel structures, ensuring compliance with technical specifications and safety standards Controlled, monitored, and optimized all site excavation and foundational works ensuring adherence to rigorous safety and engineering specifications",
+      "description": [
+        "Supervised execution of critical infrastructure works including pipe racks, foundations, and heavy steel structures, ensuring compliance with technical specifications and safety standards",
+        "Controlled, monitored, and optimized all site excavation and foundational works ensuring adherence to rigorous safety and engineering specifications"
+      ],
       "icon": "hardHat"
     },
     {
       "title": "Technical Office Engineering",
-      "description": "Produced detailed shop drawings for structural elements including foundations, columns, beams, and slabs, ensuring accuracy for site execution and reducing design conflicts. Performed quantity take-offs for civil and architectural works to support procurement and project control",
+      "description": [
+        "Produced detailed shop drawings for structural elements including foundations, columns, beams, and slabs, ensuring accuracy for site execution and reducing design conflicts.",
+        "Performed quantity take-offs for civil and architectural works to support procurement and project control"
+      ],
       "icon": "drafting"
     },
     {
       "title": "Engineering Courses",
-      "description": "Deliver professional engineering training for Structural Design Diploma (CSI Pro Track Diploma) Train engineers and students in manual design of reinforced concrete structures and structural shop drawings Conduct advanced training in Structural AutoCAD, detailing, and modern drafting workflows",
+      "description": [
+        "Deliver professional engineering training for Structural Design Diploma (CSI Pro Track Diploma)",
+        "Train engineers and students in manual design of reinforced concrete structures and structural shop drawings",
+        "Conduct advanced training in Structural AutoCAD, detailing, and modern drafting workflows"
+      ],
       "icon": "chalkboardTeacher"
     }
   ],

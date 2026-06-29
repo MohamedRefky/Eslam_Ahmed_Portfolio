@@ -143,7 +143,7 @@ class _ServicesSectionState extends State<ServicesSection> {
 
 class _ServiceCard extends StatefulWidget {
   final String title;
-  final String description;
+  final dynamic description;
   final Widget icon;
   final double width;
 
@@ -160,6 +160,50 @@ class _ServiceCard extends StatefulWidget {
 
 class _ServiceCardState extends State<_ServiceCard> {
   bool isHovered = false;
+
+  Widget _buildDescription(bool isMobile) {
+    final desc = widget.description;
+    final textStyle = TextStyle(
+      fontSize: isMobile ? 12 : 13,
+      color: AppColors.textSecondary,
+      height: 1.5,
+    );
+
+    if (desc is List) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: desc.map((item) {
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 8.0),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  '• ',
+                  style: textStyle.copyWith(
+                    color: AppColors.secondary,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Expanded(
+                  child: Text(
+                    item.toString(),
+                    style: textStyle,
+                  ),
+                ),
+              ],
+            ),
+          );
+        }).toList(),
+      );
+    }
+
+    return Text(
+      desc.toString(),
+      style: textStyle,
+      textAlign: TextAlign.center,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -223,15 +267,7 @@ class _ServiceCardState extends State<_ServiceCard> {
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: 16),
-            Text(
-              widget.description,
-              style: TextStyle(
-                fontSize: isMobile ? 12 : 14,
-                color: AppColors.textSecondary,
-                height: 1.5,
-              ),
-              textAlign: TextAlign.center,
-            ),
+            _buildDescription(isMobile),
           ],
         ),
       ),
