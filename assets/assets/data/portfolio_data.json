@@ -5,9 +5,9 @@
     "description": "Civil Engineer with 6+ years of experience in structural design, site supervision, and technical office engineering.",
     "about": "Senior Structural Design Engineer with 6+ years of experience in reinforced concrete and steel structures across residential, industrial, and infrastructure projects. Skilled in structural analysis, design optimization, and shop drawings preparation using ETABS, SAFE, and SAP2000. Delivered 50+ projects with proven ability to reduce material usage through value engineering while ensuring compliance with ECP and ACI codes. Strong background in both design and site engineering with experience in technical training and academic lecturing.",
     "image": "assets/image/profile/Eslam_Ahmed.jpg",
-    "cv": "https://drive.google.com/file/d/1kZl3c4tSRP5alNUC5zK9WhxWrqfEjMqK/view?usp=sharing",
+    "cv": "https://drive.google.com/file/d/1A94qlG_rf1u0V0vXMBRZ6cPN32urs0En/view?usp=sharing",
     "github": "",
-    "linkedin": "",
+    "linkedin": "https://www.linkedin.com/in/eslam-ahmed157179",
     "email": "eslamahmed157179@gmail.com",
     "whatsappNumber": "+201061617649",
     "phone": "+201061617649",
@@ -51,22 +51,38 @@
   "services": [
     {
       "title": "Structural Design",
-      "description": "Designing structural systems for buildings including villas, high-rise buildings, hospitals, mosques, and industrial structures.",
+      "description": [
+        "Develop full structural design packages including calculations, modeling, and reinforcement detailing for concrete and steel systems",
+        "Convert architectural layouts into efficient, code-compliant structural systems according to ECP and ACI",
+        "Develop reinforcement details, bar bending schedules (BBS), and structural detailing for all concrete elements",
+        "Delivered structural design and analysis for 50+ projects including residential, industrial, and infrastructure structures, ensuring full compliance with ECP and ACI standards",
+        "Applied value engineering techniques that reduced structural material consumption while maintaining safety and code compliance"
+      ],
       "icon": "building"
     },
     {
       "title": "Site Supervision",
-      "description": "Supervising construction activities, managing pipe racks, structures, and site excavation operations.",
+      "description": [
+        "Supervised execution of critical infrastructure works including pipe racks, foundations, and heavy steel structures, ensuring compliance with technical specifications and safety standards",
+        "Controlled, monitored, and optimized all site excavation and foundational works ensuring adherence to rigorous safety and engineering specifications"
+      ],
       "icon": "hardHat"
     },
     {
       "title": "Technical Office Engineering",
-      "description": "Preparing shop drawings, quantity take-offs, and detailed drawings for beams, columns, slabs, and footings.",
+      "description": [
+        "Produced detailed shop drawings for structural elements including foundations, columns, beams, and slabs, ensuring accuracy for site execution and reducing design conflicts.",
+        "Performed quantity take-offs for civil and architectural works to support procurement and project control"
+      ],
       "icon": "drafting"
     },
     {
       "title": "Engineering Courses",
-      "description": "Lecturing in structural design, reinforced concrete, AutoCAD, and shop drawing courses.",
+      "description": [
+        "Deliver professional engineering training for Structural Design Diploma (CSI Pro Track Diploma)",
+        "Train engineers and students in manual design of reinforced concrete structures and structural shop drawings",
+        "Conduct advanced training in Structural AutoCAD, detailing, and modern drafting workflows"
+      ],
       "icon": "chalkboardTeacher"
     }
   ],
@@ -486,6 +502,11 @@
       "platform": "WhatsApp",
       "url": "https://wa.me/201061617649",
       "icon": "whatsapp"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/eslam-ahmed157179",
+      "icon": "linkedin"
     },
     {
       "platform": "Facebook",
